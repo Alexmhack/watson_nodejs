@@ -40,3 +40,9 @@ npm install -g dotenv
 
 Read the documentation for ```dotenv``` for more details on how to use it or take 
 a look at ```sendMessage.js``` file.
+
+## Processing User Input
+To be able to process user input, we need to add a user interface to our 
+application. For this example, we'll keep things simple and use standard input 
+and output. We can use the Node.js prompt-sync module to do this. (You can 
+install prompt-sync using npm install prompt-sync.)
