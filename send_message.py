@@ -16,7 +16,7 @@ response = service.message(
 	input={
 		'text': ''
 	}
-)
+).get_result()
 
 # Print the output from dialog, if any.
 if response['output']['text']:
