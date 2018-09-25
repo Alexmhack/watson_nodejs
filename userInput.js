@@ -8,3 +8,9 @@ var service = new AssistantV1({
 	password: process.env.WATSON_PASSWORD,
 	version: process.env.WATSON_VERSION
 });
+
+var workspace_id = process.env.WORKSPACE_ID;
+
+service.message({
+	workspace_id: workspace_id
+}, processResponse);
