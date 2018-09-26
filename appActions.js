@@ -1,5 +1,6 @@
-var prompt = require('prompt-sync');
-var AssistantV1 = require('watson-developer-cloud/assistant/v1')
+var prompt = require('prompt-sync')();
+var AssistantV1 = require('watson-developer-cloud/assistant/v1');
+require('dotenv').config();
 
 var service = new AssistantV1({
 	username: process.env.WATSON_USERNAME,
